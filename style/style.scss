@@ -207,3 +207,296 @@
 }
 
 
+.footer {
+    margin-top: 100px;
+    background-image: url(../assets/header-bgi.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    // .footer__wrapper
+    
+    &__wrapper {
+        padding: 100px;
+    }
+    
+    // .footer__rows
+    
+    &__rows {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .footer__row
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    // .footer__logo
+
+    &__logo {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    // .footer__info
+
+    &__info {
+        font-weight: 900;
+        font-size: 12px;
+    }
+
+    // .footer__contact
+
+    &__contact {
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    // .footer__phone
+
+    &__phone {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    // .footer__text
+
+    &__text {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    // .footer__email
+
+    &__email {
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+    }
+
+    // .footer__link
+
+    &__link {
+        font-weight: 900;
+        color: black;
+    }
+
+    // .footer__lan
+
+    &__lan {
+        color: black;
+        font-weight: 900;
+        font-size: 20px;
+        span{
+            color: white;
+        }
+    }
+
+    // .footer__soc
+
+    &__soc {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: black;
+        font-weight: 900;
+        font-size: 14px;
+    }
+}
+
+
+.why {
+
+    // .why__wrapper
+
+    &__wrapper {
+    }
+
+    // .why__arrows
+
+    &__arrows {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .why__arrow-why
+
+    &__arrow-why {
+        background-image: url(../assets/rectangle-1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20px ;
+        max-width: 345px;
+        width: 100%;
+    }
+
+    // .why__arrow-title
+
+    &__arrow-title {
+        font-size: 30px;
+        font-weight: 900;
+
+    }
+
+    // .why__arrow
+
+    &__arrow {
+        background-image: url(../assets/bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        max-width: 345px;
+        width: 100%;
+    }
+
+    // .why__arrow-num
+
+    &__arrow-num {
+        font-size: 48px;
+        font-weight: 900;
+    }
+
+    // .why__arrow-content
+
+    &__arrow-content {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    // .why__content-title
+
+    &__content-title {
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    // .why__content-text
+
+    &__content-text {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.pag {
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+
+    }
+
+    // .pag__text
+
+    &__text {
+        font-weight: 900;
+        background-color: #141414;
+        padding: 15px 30px;
+        color: white;
+    }
+
+    // .pag__num
+
+    &__num {
+        font-weight: 900;
+        background-color: #141414;
+        padding: 15px 22px;
+        color: white;
+    }
+}
+
+.about2 {
+
+		// .about__inner
+
+		&__inner {
+		}
+
+		// .about__wrapper-title
+
+		&__wrapper-title {
+            font-size: 32px;
+            font-weight: 900;
+            margin: 25px 0;
+		}
+}
+
+
+.market {
+    margin: 100px 0;
+    // .market__wrapper
+
+    &__wrapper {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    // .market__left
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    // .market__title
+
+    &__title {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    // .market__text
+
+    &__text {
+        font-size: 16px;
+        color: #141414;
+        font-weight: 400;
+    }
+
+    // .market__right
+
+    &__right {
+        // img{
+        //     width: 100%;
+        //     max-width: 665px;
+        // }
+    }
+}
+.container {
+}
+
+
+.sertificate {
+    margin: 100px 0;
+    // .sertificate__box
+
+    &__box {
+    }
+
+    // .sertificate__title
+
+    &__title {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 30px 0;
+    }
+
+    // .sertificate__img
+
+    &__img {
+    }
+}
+
