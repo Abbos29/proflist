@@ -18,19 +18,6 @@ html {
     text-decoration-line: underline;
 }
 
-.info__wrapper a {
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    width: 100%;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.3;
-    padding: 15px 30px;
-    display: block;
-    background: #141414;
-}
-
 .btn{
     display: block;
     margin: 50px auto 100px;
