@@ -1,0 +1,14 @@
+.hero {
+  background-image: url(../assets/hero-bgi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__wrapper-title {
+  margin: 348px 0 83px;
+  text-align: center;
+  font-size: clamp(1.25rem, 0.614rem + 3.18vw, 3rem);
+  color: white;
+  background-color: #141414;
+  padding: 15px 30px;
+}/*# sourceMappingURL=hero.css.map */
