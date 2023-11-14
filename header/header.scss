@@ -14,9 +14,6 @@
     &__top {
         background-color: black;
         display: block;
-        @media (max-width:1200px) {
-            
-        }
     }
 
     // .header__top-wrap
@@ -36,6 +33,9 @@
         font-weight: 800;
         font-size:clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
         text-wrap: nowrap;
+        @media (max-width:680px) {
+            display: none;
+        }
     }
 
     // .header__top-links
@@ -43,21 +43,19 @@
     &__top-links {
         display: flex;
         gap: 25px;
+        justify-content: space-between;
         font-size: 16px;
-        @media (max-width:1280px) {
-            font-size: 12px;
-        }
-        @media (max-width:1024px) {
-            font-size: 12px;
-        }
-        @media (max-width:1024px) {
-            font-size: 12px;
-            text-wrap: nowrap;
-        }
-        @media (max-width:768px) {
+    
+        @media (max-width:1200px) {
             .soc{
                display: none; 
             }
+        }
+        @media (max-width:680px) {
+            margin: 0 auto;
+            font-size: 12px;
+            font-weight: 900;
+            text-align: center;
         }
     }
 
@@ -80,7 +78,10 @@
 
     &__mid-wrap {
         display: flex;
-        gap: 400px;
+        justify-content: space-between;
+        @media (max-width:700px) {
+            display: block;
+        }
     }
 
     // .header__mid-nav
@@ -97,6 +98,9 @@
         font-size: 20px;
         font-weight: 900;
         color: black;
+        @media (max-width:700px) {
+            display: none;
+        }
     }
 
     // .header__logo
@@ -104,6 +108,10 @@
     &__logo {
         max-width: 280px ;
         width: 100%;
+        @media (max-width:700px) {
+            max-width: 190px;
+            width: 100%;
+        }
     }
 
     // .header__mid-btn
@@ -115,7 +123,9 @@
         align-items: center;
         color: black;
         font-weight: 900;
-
+        @media (max-width:700px) {
+            display: none;
+        }
     }
 
     // .header__main
@@ -130,13 +140,20 @@
         display: flex;
         gap: 25px ;
         padding: 15px 0;
+        @media (max-width:700px) {
+         padding: 5px 0;   
+        }
     }
 
     // .header__main-link
 
     &__main-link {
-        font-size: 18px;
+        text-wrap: nowrap;
+        font-size: clamp(0.75rem, 0.615rem + 0.6vw, 1.125rem);
         color: black;
         font-weight: 900;
+        @media (max-width:700px) {
+            display: none;
+        }
     }
 }

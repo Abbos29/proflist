@@ -9,8 +9,10 @@
   padding: 100px;
 }
 .footer__rows {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
+  gap: 100px;
 }
 .footer__row {
   display: flex;
@@ -27,10 +29,10 @@
 }
 .footer__contact {
   font-weight: 900;
-  font-size: 16px;
+  font-size: clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
 }
 .footer__phone {
-  font-size: 20px;
+  font-size: clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
   font-weight: 900;
 }
 .footer__text {
@@ -38,6 +40,7 @@
   font-weight: 500;
 }
 .footer__email {
+  text-wrap: nowrap;
   font-size: 20px;
   font-weight: 900;
   display: flex;

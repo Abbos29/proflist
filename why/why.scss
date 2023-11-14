@@ -1,0 +1,48 @@
+.why {
+
+    // .why__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .why__arrow
+
+    &__arrow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 9px;
+        border: 1px solid black;
+    }
+
+    // .why__arrow-title
+
+    &__arrow-title {
+        font-size: 16px;
+    }
+
+    // .why__arrow-num
+
+    &__arrow-num {
+        font-size:clamp(2rem, 1.64rem + 1.6vw, 3rem) ;
+    }
+
+    // .why__arrow-content
+
+    &__arrow-content {
+    }
+
+    // .why__content-title
+
+    &__content-title {
+    }
+
+    // .why__content-text
+
+    &__content-text {
+    }
+}
+.container {
+}
