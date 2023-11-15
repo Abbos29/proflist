@@ -32,35 +32,4 @@
   font-size: 32px;
   font-weight: 900;
   margin: 25px 0;
-}
-
-.market {
-  margin: 100px 0;
-}
-.market__wrapper {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.market__left {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.market__title {
-  font-size: 32px;
-  font-weight: 900;
-}
-.market__text {
-  font-size: 16px;
-  color: #141414;
-  font-weight: 400;
-}
-.sertificate {
-  margin: 100px 0;
-}
-.sertificate__title {
-  font-size: 30px;
-  font-weight: 900;
-  margin: 30px 0;
 }/*# sourceMappingURL=style.css.map */

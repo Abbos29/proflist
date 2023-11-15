@@ -9,7 +9,8 @@
     
     &__wrapper {
         background-color: #F6F6F7;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: space-between;
         padding: 15px;
@@ -19,15 +20,14 @@
         }
     }
 
+
+
     // .about__logo
 
     &__logo {
-        max-width: 600px;
+        max-width: 100%;
         width: 100%;
-        @media (max-width:1280px) {
-            max-width:490px ;
-            width: 100%;
-        }
+
     }
 
     // .about__wrapper-content
@@ -43,7 +43,7 @@
     // .about__title
 
     &__title {
-        font-size: 32px;
+        font-size: clamp(1.5rem, 1.32rem + 0.8vw, 2rem);
         color: #FBCC00;
         font-weight: 900;
     }
@@ -57,5 +57,102 @@
         font-size: 16px;
         font-weight: 400;
         color: #141414;
+    }
+}
+
+.about2 {
+
+    // .about2__inner
+
+    &__inner {
+        & img{
+            max-width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    // .about2__wrapper-title
+
+    &__wrapper-title {
+    }
+}
+.market {
+    margin: 100px 0;
+    // .market__wrapper
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        @media (max-width:1000px) {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+
+    // .market__left
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    // .market__title
+
+    &__title {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    // .market__text
+
+    &__text {
+        font-size: 16px;
+        color: #141414;
+        font-weight: 400;
+    }
+
+    // .market__right
+
+    &__right {
+        img{
+            width: 100%;
+            max-width: 665px;
+            @media (max-width:1000px) {
+                object-position: center;
+                object-fit: cover;
+                max-height: 100%;
+                height: 400px;
+                max-width: 100%;
+                width: 1000px;
+            }
+        }
+    }
+}
+
+.sertificate {
+    margin: 100px 0;
+    // .sertificate__box
+
+    &__box {
+    }
+
+    // .sertificate__title
+
+    &__title {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 30px 0;
+    }
+
+    // .sertificate__img
+
+    &__img {
+        display: flex;
+        justify-content: space-between;
     }
 }

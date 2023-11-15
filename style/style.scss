@@ -54,70 +54,10 @@
 }
 
 
-.market {
-    margin: 100px 0;
-    // .market__wrapper
 
-    &__wrapper {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-    }
-
-    // .market__left
-
-    &__left {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    // .market__title
-
-    &__title {
-        font-size: 32px;
-        font-weight: 900;
-    }
-
-    // .market__text
-
-    &__text {
-        font-size: 16px;
-        color: #141414;
-        font-weight: 400;
-    }
-
-    // .market__right
-
-    &__right {
-        // img{
-        //     width: 100%;
-        //     max-width: 665px;
-        // }
-    }
-}
 .container {
 }
 
 
-.sertificate {
-    margin: 100px 0;
-    // .sertificate__box
 
-    &__box {
-    }
-
-    // .sertificate__title
-
-    &__title {
-        font-size: 30px;
-        font-weight: 900;
-        margin: 30px 0;
-    }
-
-    // .sertificate__img
-
-    &__img {
-    }
-}
 

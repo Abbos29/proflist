@@ -53,7 +53,14 @@
 }
 
 /* info-end */
+@media (max-width:480px) {
+    .info__wrapper-item.top{
+        display: none;
+    }
+}
+.top{
 
+}
 
 
 
