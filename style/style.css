@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.pag {
+  padding: 10px;
+}
+.pag__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.pag__text {
+  font-weight: 900;
+  background-color: #141414;
+  padding: 15px 30px;
+  color: white;
+}
+.pag__num {
+  font-weight: 900;
+  background-color: #141414;
+  padding: 15px 22px;
+  color: white;
+}
+
+.about2__wrapper-title {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 25px 0;
+}/*# sourceMappingURL=style.css.map */

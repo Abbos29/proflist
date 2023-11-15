@@ -90,7 +90,7 @@
 }
 .header__mid-burger {
   position: absolute;
-  bottom: 40px;
+  bottom: 25px;
   right: 51px;
   display: flex;
   flex-direction: column;

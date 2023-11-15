@@ -1,17 +1,14 @@
 .hero {
-  margin-top: 25px;
+  background-image: url(../assets/hero-bgi.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../assets/b-img.png);
-    padding: 348px 0 83px 0;
-
+  padding: 350px 0 83px;
 }
-
 .hero__wrapper-title {
   text-align: center;
   font-size: clamp(1.25rem, 0.614rem + 3.18vw, 3rem);
   color: white;
   background-color: #141414;
   padding: 15px 30px;
-}
+}/*# sourceMappingURL=hero.css.map */

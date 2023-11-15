@@ -1,0 +1,17 @@
+.why__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.why__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+  border: 1px solid black;
+}
+.why__arrow-title {
+  font-size: 16px;
+}
+.why__arrow-num {
+  font-size: clamp(2rem, 1.64rem + 1.6vw, 3rem);
+}/*# sourceMappingURL=why.css.map */

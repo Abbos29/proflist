@@ -1,0 +1,155 @@
+.footer {
+    margin-top: 100px;
+    background-image: url(../assets/header-bgi.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+    &__wrapper {
+    padding: 100px;
+    }
+    
+    // .footer__rows
+    
+    &__rows {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        @media (max-width:900px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            text-wrap: nowrap;
+        }
+    }
+
+    // .footer__row
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        @media (max-width:1100px) {
+            &.help{
+                display: none;
+
+            }
+        }
+        @media (max-width:900px) {
+            &.lan{
+                display: none;
+            }
+        }
+
+    }
+
+    // .footer__logo
+
+    &__logo {
+        max-width: 281px;
+        width: 100%;
+    }
+
+    // .footer__info
+
+    &__info {
+        font-weight: 800;
+        font-size: 12px;
+        @media (max-width:900px) {
+           font-size: 20px; 
+           font-weight: 900;
+        }
+
+    }
+
+    // .footer__contact
+
+    &__contact {
+        font-weight: 800;
+        font-size: clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
+        
+        @media (max-width:900px) {
+            font-size: 20px; 
+            font-weight: 900;
+        
+            
+         }
+    }
+
+    // .footer__phone
+
+    &__phone {
+        display: flex;
+        align-items: center;
+        font-size: clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
+        font-weight: 900;
+        
+
+        @media (max-width:900px) {
+            display: block;
+            font-size: 20px; 
+            font-weight: 900;
+            text-align: center;
+           
+         }
+    }
+
+    // .footer__text
+
+    &__text {
+        font-size: 12px;
+        font-weight: 500;
+        
+
+        @media (max-width:900px) {
+            font-size: 20px; 
+            font-weight: 900;
+        
+
+         }
+    }
+
+    // .footer__email
+
+    &__email {
+        font-size: clamp(1rem, 0.808rem + 0.96vw, 1.625rem);
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    // .footer__link
+
+    &__link {
+        font-weight: 900;
+        color: black;
+    }
+
+    // .footer__lan
+
+    &__lan {
+        color: black;
+        font-weight: 900;
+        font-size: 20px;
+        span{
+            color: white;
+        }
+    }
+
+    // .footer__soc
+
+    &__soc {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: black;
+        font-weight: 900;
+        font-size: 14px;
+    }
+
+}
+
+
