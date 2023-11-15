@@ -1,12 +1,15 @@
 .about {
-  margin-top: 100px;
-  background-image: url(../assets/about-rectangle.png);
+  background-image: url(../assets/rectangle.png);
   background-repeat: no-repeat;
-  background-color: cover;
+  background-size: cover;
   background-position: center;
 }
+@media (max-width: 1024px) {
+  .about {
+    background-image: none;
+  }
+}
 .about__wrapper {
-  background-color: #F6F6F7;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -106,6 +109,20 @@
   margin: 30px 0;
 }
 .sertificate__img {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+}
+.sertificate__img img {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .sertificate__img {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .sertificate__img {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=about.css.map */

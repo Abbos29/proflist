@@ -6,9 +6,12 @@
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
+.pag {
+  padding: 10px;
+}
 .pag__wrapper {
   display: flex;
   align-items: center;
