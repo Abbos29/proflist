@@ -1,0 +1,41 @@
+.about {
+    margin-top: 100px;
+    background-image: url(../assets/about-rectangle.png);
+    background-repeat: no-repeat;
+    background-color: cover;
+    background-position: center;
+  }
+  
+  .about__wrapper {
+    background-color: #F6F6F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .about__logo {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .about__wrapper-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 564px;
+  }
+  
+  .about__title {
+    font-size: 32px;
+    color: #FBCC00;
+    font-weight: 900;
+  }
+  
+  .about__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #141414;
+  }
+  

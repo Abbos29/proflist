@@ -1,0 +1,31 @@
+.market {
+    margin: 100px 0;
+  }
+  
+  .market__wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .market img{
+    width: 100%;
+  }
+  
+  .market__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .market__title {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .market__text {
+    font-size: 16px;
+    color: #141414;
+    font-weight: 400;
+  }
+  

@@ -1,0 +1,20 @@
+.hero {
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.hero .hero__wrapper{
+  margin-top: 380px;
+}
+
+
+.hero__wrapper-title {
+  text-align: center;
+  font-size: clamp(1.25rem, 0.614rem + 3.18vw, 3rem);
+  color: white;
+  background-color: #141414;
+  padding: 15px 30px;
+}
