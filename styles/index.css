@@ -31,7 +31,7 @@
         max-width: 1350px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 15px;
+        padding: 0 ;
     }
 
     .section-title {
@@ -146,6 +146,10 @@
             grid-template-columns: 1fr 1fr;
             gap: 15px;
         }
+
+        .sertificate img{
+            width: 100%;
+        }
     }
 
     @media (max-width: 768px) {
@@ -165,3 +169,17 @@
             flex-direction: column;
         }
     }
+
+    @media (max-width:480px) {
+        .info__wrapper-item.top{
+            display: none;
+        }
+    }
+    
+  @media (max-width:1024px) {
+    .about{
+      background-image: none;
+    }
+}
+
+    

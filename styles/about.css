@@ -4,10 +4,10 @@
     background-repeat: no-repeat;
     background-color: cover;
     background-position: center;
+    width: 100%;
   }
-  
+
   .about__wrapper {
-    background-color: #F6F6F7;
     display: flex;
     align-items: center;
     justify-content: space-between;
