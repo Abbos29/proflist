@@ -3,11 +3,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url(../assets/b-img.png);
 }
 
 
 .hero .hero__wrapper{
-  margin-top: 380px;
+  padding: 348px 0 83px 0;
+
 }
 
 
