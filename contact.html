@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -12,16 +11,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="style/indexjamshid.css">
     <link rel="stylesheet" href="./style/stylejamshid.css">
-    <link rel="stylesheet" href="./about/about.css">
-    <link rel="stylesheet" href="./why/why.css">
-    <link rel="stylesheet" href="./hero/hero.css">
-    <link rel="stylesheet" href="./header/header.css">
-    <link rel="stylesheet" href="./footer/footer.css">
-    <link rel="stylesheet" href="./style/info.css">
-    <link rel="stylesheet" href="card/card.css">
-    <link rel="stylesheet" href="./info/info.css">
 </head>
-
 <body>
     <header class="header">
 
@@ -36,15 +26,15 @@
                         <p class="header__top-text">Режим работы: Пн-Пт c 8:00 - 18:00</p>
 
                         <div class="header__top-links">
-                            <a href="#" class="header__top-link soc"><img src="./assets/tg.png"
+                            <a href="#" class="hover header__top-link soc"><img src="./assets/tg.png"
                                     alt="Telegram icon">Связаться в
                                 Telegram</a>
-                            <a href="#" class="header__top-link soc"><img src="./assets/whatsup.png"
+                            <a href="#" class="hover header__top-link soc"><img src="./assets/whatsup.png"
                                     alt="whatsup icon">Связаться в Telegram</a>
-                            <a href="#" class="header__top-link"><img src="./assets/phone.png" alt="phine icon">+7
+                            <a href="#" class="hover header__top-link"><img src="./assets/phone.png" alt="phine icon">+7
                                 (495)
                                 385-75-70</a>
-                            <a href="#" class="header__top-link"><img src="./assets/gmail.png"
+                            <a href="#" class="hover header__top-link"><img src="./assets/gmail.png"
                                     alt="gmail icon">zakaz@proflist-market.ru</a>
                         </div>
 
@@ -61,16 +51,17 @@
                     <div class="header__mid-wrap">
 
                         <div class="header__mid-nav">
-                            <a href="index.html" class="header__mid-link">Профлист</a>
+                            <a href="index.html#proflist" class="header__mid-link">Профлист</a>
                             <a href="#" class="header__mid-link">Труба</a>
                         </div>
 
-                        <img class="header__logo" src="./assets/logo.svg" alt="">
+                        <a href="index.html"><img class="header__logo" src="./assets/logo-white.svg" alt=""></a>
 
                         <div class="header__mid-nav">
                             <a class="header__mid-btn" href="#"><img src="./assets/korzinka.png"
                                     alt="корзинка">Корзина</a>
-                            <a href="#" class="header__mid-btn"><img src="./assets/search.png" alt="search">Поиск</a>
+                            <a href="#" class="header__mid-btn"><img src="./assets/search.png"
+                                    alt="search">Поиск</a>
                         </div>
                         <div class="header__mid-burger">
                             <span></span>
@@ -91,12 +82,12 @@
 
                     <div class="header__main-links">
 
-                        <a href="about.html" class="header__main-link">О компании</a>
-                        <a href="#" class="header__main-link">Доставка и оплата</a>
-                        <a href="#" class="header__main-link">Отзывы</a>
-                        <a href="#" class="header__main-link">Сертификаты</a>
-                        <a href="#" class="header__main-link">Калькулятор забора</a>
-                        <a href="#" class="header__main-link">Контакты</a>
+                        <a href="about.html" class="hover header__main-link">О компании</a>
+                        <a href="delivery.html" class="hover header__main-link">Доставка и оплата</a>
+                        <a href="#" class="hover header__main-link">Отзывы</a>
+                        <a href="about.html#sertificate" class="hover header__main-link">Сертификаты</a>
+                        <a href="card.html#calculator" class="hover header__main-link">Калькулятор забора</a>
+                        <a href="#contacts" class="header__main-link">Контакты</a>
 
                     </div>
 
@@ -108,19 +99,13 @@
 
     </header>
     <div class="nav">
-
         <div class="container">
-
             <div class="nav__box">
                 <a class="nav__nav" href="./index.html">Главная</a>
                 <span>/</span>
-                <a class="nav__nav" href="./catalog.html">Каталог</a>
-                <span>/</span>
-                <a style="color: #FBCC00;" class="nav__nav" href="">Профлист</a>
+                <a class="active nav__nav" href="./catalog.html">Контакты</a>
             </div>
-
         </div>
-
     </div>
     <div class="contact">
         <div class="container">
@@ -129,7 +114,7 @@
                 <div class="contact__text">Режим работы: Пн-Пт c 8:00 - 18:00</div>
                 <div class="contact__text">398010, Липецкая область, Грязинский район, город Грязи, тер. ОЭЗ ППТ Липецк,
                     стр. 6БС Процессинг Здание 17</div>
-                <a href="#" class="header__top-link"><img src="./assets/svg/black-phone.svg" alt="phine icon">+7
+                <a href="#" class="header__top-link"><img src="./assets/svg/black-phone.svg" alt="phone icon">+7
                     (495)
                     385-75-70</a>
                 <a href="#" class="header__top-link"><img src="./assets/svg/black-gmail.svg"
@@ -153,15 +138,15 @@
                     <input class="connect__input" type="text">
                     <div class="contact__text">Сообщение</div>
                     <textarea cols="30" rows="10"></textarea>
-
+                    <a href="#" class="btn">Отправить</a>
                 </form>
                 <div class="connect__wrapper-2">
-                    <!-- <img src="./assets/Rectangle 159.png" alt=""> -->
+                    <img src="./assets/Rectangle 159 (1).png" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
 
         <div class="container">
 
@@ -222,5 +207,4 @@
         
     </footer>
 </body>
-
 </html>

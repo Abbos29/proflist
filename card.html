@@ -11,13 +11,6 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="style/indexjamshid.css">
     <link rel="stylesheet" href="./style/stylejamshid.css">
-    <link rel="stylesheet" href="./about/about.css">
-    <link rel="stylesheet" href="./why/why.css">
-    <link rel="stylesheet" href="./hero/hero.css">
-    <link rel="stylesheet" href="./header/header.css">
-    <link rel="stylesheet" href="./footer/footer.css">
-    <link rel="stylesheet" href="./style/info.css">
-    <link rel="stylesheet" href="card/card.css">
 </head>
 <body>
     <header class="header">
@@ -33,15 +26,15 @@
                         <p class="header__top-text">Режим работы: Пн-Пт c 8:00 - 18:00</p>
 
                         <div class="header__top-links">
-                            <a href="#" class="header__top-link soc"><img src="./assets/tg.png"
+                            <a href="#" class="hover header__top-link soc"><img src="./assets/tg.png"
                                     alt="Telegram icon">Связаться в
                                 Telegram</a>
-                            <a href="#" class="header__top-link soc"><img src="./assets/whatsup.png"
+                            <a href="#" class="hover header__top-link soc"><img src="./assets/whatsup.png"
                                     alt="whatsup icon">Связаться в Telegram</a>
-                            <a href="#" class="header__top-link"><img src="./assets/phone.png" alt="phine icon">+7
+                            <a href="#" class="hover header__top-link"><img src="./assets/phone.png" alt="phine icon">+7
                                 (495)
                                 385-75-70</a>
-                            <a href="#" class="header__top-link"><img src="./assets/gmail.png"
+                            <a href="#" class="hover header__top-link"><img src="./assets/gmail.png"
                                     alt="gmail icon">zakaz@proflist-market.ru</a>
                         </div>
 
@@ -58,11 +51,11 @@
                     <div class="header__mid-wrap">
 
                         <div class="header__mid-nav">
-                            <a href="index.html" class="header__mid-link">Профлист</a>
-                            <a href="#" class="header__mid-link">Труба</a>
+                            <a href="index.html#proflist" class="header__mid-link">Профлист</a>
+                            <a href="index.html#pipe" class="header__mid-link">Труба</a>
                         </div>
 
-                        <img class="header__logo" src="./assets/logo.svg" alt="">
+                        <a href="index.html"><img class="header__logo" src="./assets/logo-white.svg" alt=""></a>
 
                         <div class="header__mid-nav">
                             <a class="header__mid-btn" href="#"><img src="./assets/korzinka.png"
@@ -89,12 +82,12 @@
 
                     <div class="header__main-links">
 
-                        <a href="about.html" class="header__main-link">О компании</a>
-                        <a href="#" class="header__main-link">Доставка и оплата</a>
-                        <a href="#" class="header__main-link">Отзывы</a>
-                        <a href="#" class="header__main-link">Сертификаты</a>
-                        <a href="#" class="header__main-link">Калькулятор забора</a>
-                        <a href="#" class="header__main-link">Контакты</a>
+                        <a href="about.html" class="hover header__main-link">О компании</a>
+                        <a href="delivery.html" class="hover header__main-link">Доставка и оплата</a>
+                        <a href="#" class="hover header__main-link">Отзывы</a>
+                        <a href="about.html#sertificate" class="hover header__main-link">Сертификаты</a>
+                        <a href="card.html#calculator" class="hover header__main-link">Калькулятор забора</a>
+                        <a href="contact.html" class="hover header__main-link">Контакты</a>
 
                     </div>
 
@@ -109,56 +102,214 @@
         <div class="container">
             <div class="nav__box">
                 <a class="nav__nav" href="./index.html">Главная</a>
-                <a class="nav__nav" href="./catalog.html">Каталог</a>
-                <a class="nav__nav" href="index.html">Профлист</a>
+                <span>/</span>
+                <a class="active nav__nav" href="./catalog.html">Продукт</a>
             </div>
         </div>
     </div>
+    <section id="calculator" class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__left">wrfwrfw</div>
+                <div class="card__right">
+                    <div class="card__left-top">
+                        <h2 class="card__title">Профлист С8 0.5 (RAL 6005) зелёный</h2>
+                        <p class="card__text">Цена указана за лист 1200x2000</p>
+                        <p class="card__text yellow">В наличии</p>
+                    </div>
+                    <div class="card__prices">
+                        <p class="card__price">34 392 ₽</p>
+                        <s class="card__price s">34 392 ₽</s>
+                    </div>
+                    <div class="card__left-mid">
+                        <div class="card__mid-line">
+                            <p>Ширина листа:</p>
+                            <p class="c
+                            ard__line-num">1</p>
+                        </div>
+                        <div class="card__mid-line">
+                            <p>Длина листа:</p>
+                            <p>23</p>
+                        </div>
+                        <div class="card__mid-line">
+                            <p>Толщина листа:</p>
+                            <p class="card__line-num">25</p>
+                        </div>
+                        <div class="card__mid-line">
+                            <p>Плотность:</p>
+                            <p class="card__line-num">155</p>
+                        </div>
+                        <div class="card__mid-line">
+                            <p>Материал:</p>
+                            <p class="card__line-num">Металл</p>
+                        </div>
+                        <div class="card__mid-line">
+                            <p>Пример наполнения:</p>
+                            <p class="card__line-num">90</p>
+                        </div>
+                    </div>
+                    <div class="card__btns">
+                        <div class="card__btn">
+                            <a href="">Добавить в корзину</a>
+                        </div>
+                        <div class="card__btn">
+                            <a href="">Купить в 1 клик</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="why">
+
+            <div class="container">
+
+                <div class="why__wrapper">
+                    <div class="why__arrow why">
+
+                            <h1 class="why__arrow-title">Почему мы?</h1>
+
+                    </div>
+
+                        <div class="why__arrow">
+
+                            <p class="why__arrow-num">1</p>
+
+                            <div class="why__arrow-content">
+                                <h2 class="why__content-title">Отличная цена</h2>
+                                <p class="why__content-text">Дешевле чем у конкурентов</p>
+                            </div>
+
+                        </div>
+
+                        <div class="why__arrow">
+
+                            <p class="why__arrow-num">2</p>
+
+                            <div class="why__arrow-content">
+                                <h2 class="why__content-title">Товар в наличии</h2>
+                                <p class="why__content-text">Приезжай, забирай или принимай доставку</p>
+                            </div>
+
+                        </div>
+
+                        <div class="why__arrow">
+
+                            <p class="why__arrow-num">3</p>
+
+                            <div class="why__arrow-content">
+                                <h2 class="why__content-title">Качество</h2>
+                                <p class="why__content-text">Сделано из российского металла</p>
+                            </div>
+
+                        </div>
+
+                    
+
+                </div>
+
+            </div>
+
+        </section> -->
 
 
+        <section class="info">
 
+            <div class="container">
 
+                <h4 class="section-title">Рекомендуемые товары</h4>
 
+                <div class="info__wrapper">
 
+                    <div class="info__wrapper-item top">
 
+                        <img src="./assets/img-1.png" alt="">
 
+                        <div class="info__wrapper-title">
+                            Профлист С8 0.5 (RAL 6005) зелёный
+                        </div>
 
+                        <div class="info__wrapper-text">
+                            Цена указана за лист 1200x2000
+                        </div>
 
+                        <div class="info__wrapper-price">
+                            1150₽
+                        </div>
 
+                        <a href="#" class="link">Добавить в корзину</a>
 
+                    </div>
 
+                    <div class="info__wrapper-item top">
 
+                        <img src="./assets/img-2.png" alt="">
 
+                        <div class="info__wrapper-title">
+                            Профлист С8 0.5 (RAL 6005) зелёный
+                        </div>
 
+                        <div class="info__wrapper-text">
+                            Цена указана за лист 1200x2000
+                        </div>
 
+                        <div class="info__wrapper-price">
+                            1150₽
+                            <s>1150₽</s>
+                        </div>
 
+                        <a href="#" class="link">Добавить в корзину</a>
 
+                    </div>
+                    <div class="info__wrapper-item">
 
+                        <img src="./assets/img-3.png" alt="">
 
+                        <div class="info__wrapper-title">
+                            Профлист С8 0.5 (RAL 6005) зелёный
+                        </div>
 
+                        <div class="info__wrapper-text">
+                            Цена указана за лист 1200x2000
+                        </div>
 
+                        <div class="info__wrapper-price">
+                            34 392 ₽
+                        </div>
+                        
+                        <a href="#" class="link">Добавить в корзину</a>
 
+                    </div>
 
+                    <div class="info__wrapper-item">
 
+                        <img src="./assets/img-2.png" alt="">
 
+                        <div class="info__wrapper-title">
+                            Профлист С8 0.5 (RAL 6005) зелёный
+                        </div>
 
+                        <div class="info__wrapper-text">
+                            Цена указана за лист 1200x2000
+                        </div>
 
+                        <div class="info__wrapper-price">
+                            1150₽
+                            <s>1150₽</s>
+                        </div>
 
+                        <a href="#" class="link">Добавить в корзину</a>
 
+                    </div>
 
+                </div>
 
+                <a href="./catalog.html" class="btn">Смотреть все товары</a>
 
+            </div>
 
-
-
-
-
-
-
-
-
-
-    <!-- <footer class="footer">
+        </section>
+     <footer id="contacts" class="footer">
 
         <div class="container">
 
@@ -217,6 +368,6 @@
 
         </div>
         
-    </footer> -->
+    </footer>
 </body>
 </html>
