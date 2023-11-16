@@ -965,7 +965,6 @@
     background-position: center;
     height: 380px;
     max-width: 100%;
-    width: 1770px;
 
     @media (max-width:1024px) {
         background-image: none;
@@ -1007,8 +1006,14 @@
     // .connect__wrapper
     &__wrapper {
         align-items: center;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 30px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            
+        }
     }
 
     // .connect__wrapper-1
@@ -1017,8 +1022,7 @@
 
 
     &__wrapper-2 {
-        background-image: url(../assets/Rectangle\ 159.png);
-        height: 560px;
+        // background-image: url(../assets/Rectangle\ 159.png);
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;

@@ -696,7 +696,6 @@
   background-position: center;
   height: 380px;
   max-width: 100%;
-  width: 1770px;
 }
 @media (max-width: 1024px) {
   .contact {
@@ -734,12 +733,16 @@
 }
 .connect__wrapper {
   align-items: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+@media (max-width: 768px) {
+  .connect__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 .connect__wrapper-2 {
-  background-image: url(../assets/Rectangle\ 159.png);
-  height: 560px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
