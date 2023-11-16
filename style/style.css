@@ -569,6 +569,9 @@
   flex-direction: column;
   gap: 10px;
 }
+.footer__row.lang {
+  display: flex;
+}
 @media (max-width: 1100px) {
   .footer__row.help {
     display: none;
@@ -679,7 +682,6 @@
   background-position: center;
   height: 380px;
   max-width: 100%;
-  width: 1770px;
 }
 @media (max-width: 1024px) {
   .contact {
