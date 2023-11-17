@@ -1114,9 +1114,12 @@ textarea:focus {
     // .order__wrapper
 
     &__title {
-        padding-bottom: 50px;
         font-weight: 900;
         font-size: 32px;
+        padding: 25px 0 20px;
+        @media (max-width:480px) {
+            text-align: center;
+        }
     }
 
     // .order__card
@@ -1130,6 +1133,12 @@ textarea:focus {
         display: flex;
         gap: 20px;
         align-items: center;
+        flex-wrap: wrap;
+
+        @media (max-width:480px) {
+            justify-content: center;
+            text-align: center;
+        }
 
         & img {
             width: 100%;
@@ -1153,8 +1162,12 @@ textarea:focus {
     // .order__text2
 
     &__text2 {
+        padding-top: 10px;
+        color: #585858;
         font-size: 12px;
-        font-weight: 400;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.3;
     }
 
     // .order__card-price
@@ -1190,6 +1203,7 @@ textarea:focus {
     &__price-price {
         font-size: 18px;
         font-weight: 900;
+        text-wrap: nowrap;
     }
 
     // .order__overall
@@ -1217,7 +1231,14 @@ textarea:focus {
 
     // .order__input-text
 
-    &__input-text {}
+    &__input-text {
+        color: #141414;
+        padding: 20px 0 5px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 130%;
+    }
 
     &__input-input {
         padding: 12px 23px;
