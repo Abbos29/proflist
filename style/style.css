@@ -702,6 +702,9 @@
     background-image: none;
   }
 }
+.contact__link {
+  color: #FBCC00;
+}
 .contact__text {
   color: #141414;
   padding: 10px 0;
