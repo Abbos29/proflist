@@ -816,9 +816,10 @@ textarea:focus {
 .order {
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 95px;
 }
 .order__title {
+  padding-bottom: 50px;
   font-weight: 900;
   font-size: 32px;
 }
