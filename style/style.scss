@@ -285,6 +285,7 @@
         background-color: #141414;
         padding: 15px 18px;
         color: white;
+        text-wrap: nowrap;
     }
 
     // .pag__num
@@ -337,7 +338,6 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: space-between;
-        padding: 15px;
 
         @media (max-width:900px) {
             display: flex;
