@@ -825,7 +825,12 @@ textarea:focus {
 .order__title {
   font-weight: 900;
   font-size: 32px;
-  padding: 25px 0 25px;
+  padding: 25px 0 20px;
+}
+@media (max-width: 480px) {
+  .order__title {
+    text-align: center;
+  }
 }
 .order__card-box {
   display: flex;
@@ -836,6 +841,13 @@ textarea:focus {
   display: flex;
   gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+  .order__card {
+    justify-content: center;
+    text-align: center;
+  }
 }
 .order__card img {
   width: 100%;
@@ -850,8 +862,12 @@ textarea:focus {
   font-weight: 900;
 }
 .order__text2 {
+  padding-top: 10px;
+  color: #585858;
   font-size: 12px;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.3;
 }
 .order__card-price {
   display: flex;
@@ -871,6 +887,7 @@ textarea:focus {
 .order__price-price {
   font-size: 18px;
   font-weight: 900;
+  text-wrap: nowrap;
 }
 .order__overall {
   font-size: 32px;
@@ -885,6 +902,14 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.order__input-text {
+  color: #141414;
+  padding: 20px 0 5px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
 }
 .order__input-input {
   padding: 12px 23px;
@@ -909,6 +934,7 @@ textarea:focus {
   font-style: normal;
   font-weight: 800;
   line-height: 1.3;
+  padding: 25px 0 20px;
 }
 .decor__box {
   display: flex;
@@ -941,7 +967,7 @@ textarea:focus {
   background-color: #FBCC00;
   padding: 15px 30px;
   text-align: center;
-  margin: 350px 0 0;
+  margin: 335px 0 0;
 }
 
 .modal.active {
