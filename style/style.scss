@@ -63,11 +63,17 @@
             }
         }
 
+
+
         @media (max-width:680px) {
             margin: 0 auto;
             font-size: 12px;
             font-weight: 900;
             text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            font-size: 10px;
         }
     }
 
@@ -80,6 +86,8 @@
         color: white;
         transition: all 0.3s;
 
+        cursor: pointer;
+
         &:hover {
             // transition: all 0.3s;
             color: #FBCC00;
@@ -91,6 +99,8 @@
 
     &__mid {
         position: relative;
+
+      
     }
 
     // .header__mid-wrap
@@ -914,6 +924,8 @@
         color: black;
         font-weight: 900;
         font-size: 14px;
+
+        cursor: pointer;
     }
 
 }
@@ -1047,6 +1059,7 @@
 form {
     width: 100%;
     max-width: 100%;
+    height: 100%;
 }
 
 textarea {
@@ -1099,33 +1112,48 @@ textarea:focus {
 
 .modal {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
-    padding: 10px 50px 0;
+    padding: 30px;
     max-width: 725px;
     background-color: #fff;
     z-index: 2;
     width: 100vw;
     height: 100vh;
     box-shadow: -11px 8px 48px 11px rgba(34, 60, 80, 0.2);
+
+    &.active {
+        display: block;
+        overflow-y: scroll;
+    }
+
+    @media (max-width: 480px) {
+        padding: 20px;
+    }
 }
 
 
 .order {
     display: flex;
     flex-direction: column;
-    gap: 115px;
+    height: 100%;
+    // gap: 215px;
     // .order__wrapper
+    gap: 15px;
 
+    
     &__title {
         font-weight: 900;
         font-size: 32px;
-        padding: 25px 0 20px;
+        // padding: 25px 0 20px;
         @media (max-width:480px) {
             text-align: center;
+            font-size: 24px;
         }
     }
+
+    
 
     // .order__card
     &__card-box {
@@ -1143,6 +1171,7 @@ textarea:focus {
         @media (max-width:480px) {
             justify-content: center;
             text-align: center;
+            gap: 10px;
         }
 
         & img {
@@ -1216,6 +1245,10 @@ textarea:focus {
     &__overall {
         font-size: 32px;
         font-weight: 900;
+
+        @media (max-width: 480px) {
+            font-size: 22px;
+        }
     }
 
     // .order__btns
@@ -1224,6 +1257,10 @@ textarea:focus {
         display: flex;
         flex-direction: column;
         gap: 25px;
+
+        @media (max-width: 480px) {
+            gap: 10px;
+        }
     }
 
     // .order__input
@@ -1243,6 +1280,11 @@ textarea:focus {
         font-style: normal;
         font-weight: 800;
         line-height: 130%;
+
+
+        @media (max-width: 480px) {
+            padding: 15px 0;
+        }
     }
 
     &__input-input {
@@ -1258,13 +1300,36 @@ textarea:focus {
         font-weight: 900;
         text-align: center;
         background-color: #FBCC00;
+
+        @media (max-width: 480px) {
+            margin-bottom: 20px;
+        }
     }
+
+
+
+    &__bottom {
+        margin-top: auto;
+    }
+}
+
+.order-close {
+    width: max-content;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    margin-left: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .decor {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    height: 100%;
+
     // .decor__title
 
     &__title {
@@ -1292,6 +1357,8 @@ textarea:focus {
         gap: 5px;
         width: 100%;
         max-width: 100%;
+
+        height: 100%;
     }
 
     // .decor__text
@@ -1319,15 +1386,12 @@ textarea:focus {
         background-color: #FBCC00;
         padding: 15px 30px;
         text-align: center;
-        margin: 335px 0 0;
+        
+        margin-top: auto;
+        display: block;
     }
 }
 
-
-
-.modal.active {
-    display: block;
-}
 
 .body.active {
     overflow: hidden;
