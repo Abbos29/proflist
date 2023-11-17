@@ -974,6 +974,9 @@
     @media (max-width:1024px) {
         background-image: none;
     }
+    &__link{
+        color: #FBCC00;
+    }
 
     &__text {
         color: #141414;
@@ -1104,18 +1107,20 @@ textarea:focus {
     z-index: 2;
     width: 100vw;
     height: 100vh;
+    box-shadow: -11px 8px 48px 11px rgba(34, 60, 80, 0.2);
 }
 
 
 .order {
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 115px;
     // .order__wrapper
 
     &__title {
         font-weight: 900;
         font-size: 32px;
+        padding: 25px 0 25px;
     }
 
     // .order__card
